@@ -50,6 +50,22 @@ body{
   padding-bottom: 30px;
 }
 
+#h4-logos{
+  color: #6F7B97;
+  padding-top: 50px;
+}
+
+#bg-grey{
+  background-color: #F3F5F9;
+}
+
+#a-logos{
+  font-size: 16px;
+  color: #006AFF;
+  font-weight: 600;
+  line-height: 100px;
+}
+
 
 /* NAV */
 .navbar{
@@ -79,7 +95,7 @@ body{
 
 .signin-box{
   float: right;
-  margin-top: 120px;
+  margin: 120px 0;
   background-color: #fff;
   border-radius: 5px;
 }
@@ -111,6 +127,13 @@ body{
 #g-logo{
   height: 20px;
   float: left;
+}
+
+/* LOGHI */
+.ul-li-logos{
+  display: inline;
+  padding-right: 30px;
+  padding-top: 25px;
 }
 
 /* MEDIA QUERY SMARTPHONES */
@@ -150,7 +173,7 @@ body{
 
 /* MEDIA QUERY TABLET */
 
-@media all and (min-width: 426px) and (max-width: 1500px){
+@media all and (min-width: 426px) and (max-width: 991px){
     .navbar-header {
     width: 103%;
   }
